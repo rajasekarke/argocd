@@ -18,7 +18,7 @@ spec:
           ports:
             - containerPort: 80
 ---
-apiVersion: v1
+apiVersion: v2
 kind: Service
 metadata:
   name: nginx-svc
@@ -30,5 +30,5 @@ spec:
     - name: "my-tomcat"
       port: 80
       targetport: 80
-      nodeport: 30008
+      nodePort: 30008
   
