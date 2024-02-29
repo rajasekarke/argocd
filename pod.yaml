@@ -30,5 +30,6 @@ spec:
     - name: "my-tomcat"
       port: 80
       targetport: 80
+      nodeport : 30008
 
   
